@@ -1,0 +1,36 @@
+div.title {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.container {
+  display: flex;
+}
+
+div.hotel {
+  display: flexbox;
+  justify-content: space-between;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: 50%;
+}
+div.review {
+  background-color: lightgrey;
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: 50%;
+  margin-left: 10px;
+}
+
+.linea {
+  border-top: 1px solid black;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
+.image-hotel {
+  width: 30%;
+}
